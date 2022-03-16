@@ -1,0 +1,48 @@
+.iPBORQ > :first-child, .iPBORQ > :first-child > button:first-of-type, .iPBORQ > :first-child > a:first-of-type {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .iPBORQ .Itemreact__ItemBase-sc-1idymv7-0 {
+    border: medium none;
+    overflow: hidden;
+  }
+  .glymPt {
+    width: 100%;
+    font-weight: 600;
+    padding: 16px;
+    border: 1px solid rgb(229, 232, 235);
+    color: rgb(53, 56, 64);
+    text-align: left;
+  }
+  .ekTmzq {
+    color: rgb(32, 129, 226);
+    text-decoration: none;
+  }
+  .jYqxGr {
+    display: flex;
+  }
+  *, ::before, ::after {
+    box-sizing: border-box;
+  }
+  ul li {
+    list-style-type: none;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .erAXih {
+    visibility: visible;
+  }
+  :root {
+    color: rgb(53, 56, 64);
+  }
+  html {
+    font-size: 15px;
+  }
+  html {
+    font-size: 14.5px;
+  }
+  html {
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    font-size: 14px; }
