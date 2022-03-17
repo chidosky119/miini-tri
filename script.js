@@ -25,7 +25,7 @@ function hide_show() {
 
 var c;
 
-function show_hide() {
+function hide_or_show() {
     if(c == 1) {
         document.getElementById("wallet").style.display="none";
         return c=0;
@@ -38,7 +38,7 @@ function show_hide() {
 
 var d;
 
-function show_hide() {
+function show_or_hide() {
     if(d == 1) {
         document.getElementById("trust").style.display="none";
         return d=0;
